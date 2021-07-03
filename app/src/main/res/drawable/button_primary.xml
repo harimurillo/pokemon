@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@color/primary_dark_padrao" />
+                    <corners android:radius="@dimen/corner_button_primary" />
+                    <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+                    <size android:height="48dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_focused="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@color/primary_dark_padrao" />
+                    <corners android:radius="@dimen/corner_button_primary" />
+                    <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+                    <size android:height="48dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_enabled="false">
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@color/color_dark_gray" />
+                    <corners android:radius="@dimen/corner_button_primary" />
+                    <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+                    <size android:height="48dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <gradient
+                        android:angle="315" android:startColor="@color/primary" android:centerColor="@color/primary" android:endColor="@color/primary"  />
+                    <corners android:radius="@dimen/corner_button_primary" />
+                    <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+                    <size android:height="48dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

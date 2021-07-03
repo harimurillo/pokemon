@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="colorAccent">#000000</color>
+
+
+    <color name="primary">#FFC107</color>
+    <color name="primary_dark">#000000</color>
+    <color name="black">#000000</color>
+
+
+    <color name="primary_dark_padrao">#FFA000</color>
+    <color name="color_dark_gray">#414141</color>
+</resources>
